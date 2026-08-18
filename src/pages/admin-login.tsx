@@ -15,7 +15,7 @@ import { Label } from "@/components/ui/label";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { LogIn } from "lucide-react";
 
-const BASE_URL = import.meta.env.VITE_BACKEND_URL; // ✅ e.g., "http://localhost:5000"
+const BASE_URL = import.meta.env.VITE_BACKEND_URL + "/api"; // ✅ e.g., "http://localhost:5000"
 
 const AdminLogin = () => {
   const navigate = useNavigate();
